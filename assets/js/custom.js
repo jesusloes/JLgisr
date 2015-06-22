@@ -6,5 +6,5 @@
  	$('#jsCarousel').jsCarousel({ autoscroll: true });
 
  	$('.modal-trigger').leanModal();
-
+ 	new WOW().init();
  });
