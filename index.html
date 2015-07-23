@@ -1,7 +1,8 @@
-  <html>
+  <!DOCTYPE html5>
+  <html ng-app="gisrApp">
   <head>
     <!--Import materialize.css-->
-    
+    <title>GISR</title>
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
     <link href="assets/css/jsCarousel.css" rel="stylesheet" type="text/css" />
 
@@ -22,22 +23,24 @@
           <a href="#" class="brand-logo "><img class="logogisr" src="assets/images/girslogo.png" ></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a class="brown-text text-darken-2" href="#home">Home</a></li>
-            <li><a class="brown-text text-darken-2" href="#ofrecemos">Te ofrecemos</a></li>
-            <li><a class="brown-text text-darken-2" href="#especialidad">Especialidades</a></li>
-            <li><a class="brown-text text-darken-2" href="#nosotros">Nosotros</a></li>
-            <li><a class="brown-text text-darken-2" href="#clientes">Nuestros Clientes</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#home">Inicio</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#ofrecemos">Te ofrecemos</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#especialidad">Especialidades</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#nosotros">Nosotros</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#clientes">Nuestros Clientes</a></li>
             <li><a class="lawexchange modal-trigger" href="#law">Law Exange International</a></li>
-            <li><a class="brown-text text-darken-2" href="#contacto">Contacto</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#contacto">Contacto</a></li>
+            <li><a class="brown-text text-darken-2 " href="en.html">English</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a class="brown-text text-darken-2" href="#home">Home</a></li>
-            <li><a class="brown-text text-darken-2" href="#ofrecemos">Te ofrecemos</a></li>
-            <li><a class="brown-text text-darken-2" href="#especialidad">Especialidades</a></li>
-            <li><a class="brown-text text-darken-2" href="#nosotros">Nosotros</a></li>
-            <li><a class="brown-text text-darken-2" href="#clientes">Nuestros Clientes</a></li>
-            <li><a class="lawexchange" href="">Law Exange International</a></li>
-            <li><a class="brown-text text-darken-2" href="#contacto">Contacto</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#home">Inicio</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#ofrecemos">Te ofrecemos</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#especialidad">Especialidades</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#nosotros">Nosotros</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#clientes">Nuestros Clientes</a></li>
+            <li><a class="lawexchange modal-trigger" href="#law">Law Exange International</a></li>
+            <li><a class="brown-text text-darken-2 scroll-link" href="#contacto">Contacto</a></li>
+            <li><a class="brown-text text-darken-2" href="en.html">English</a></li>
           </ul>
         </div>
       </nav>
@@ -63,13 +66,20 @@
         <h2 class="wow bounceInLeft">Nuestra Filosofia</h2>
       </div>
       <div class="space"></div>
-      <div class="container wow bounceInLeft">
-        <div>
+      <div class="container wow bounceInLeft hide-on-med-and-up">
+        <div class="col s12"><h4>Empaticos</h4><p>Traduciéndose en hacer el mejor esfuerzo para entender los requerimientos de nuestros clientes, permitiéndonos implementar la mejor alternativa legar que resuelva sus situaciones de una manera eficaz y eficiente.</p></div>
+        <div class="col s12"><h4>Comprometidos</h4><p>Una vez que se identifican las necesidades de nuestros clientes, no solo nos aseguramos que nuestros servicios sean los apropiados al objetivo planteado, hacemos también todos los esfuerzos para lograrlos de forma rápida y consistente.</p></div>
+        <div class="col s12"><h4>Efectivos</h4><p>Resolveremos los asuntos de nuestros clientes mediante la implementación de las mejores estrategias legales disponibles, identificando y explotando cualquier alternativa hasta sus últimas consecuencias, trabajando bajo un compromiso renovado y sólido de atender personalmente a nuestros clientes bajo estándares de calidad.</p></div>
+        <div class="col s12"><h4>Confianza</h4><p>Nuestras bases son los más altos estándares de ética y profesionalismo, a través de resultados contundentes, continuamos ganando la confianza y lealtad de nuestros clientes.</p></div>
+      </div>
+
+      <div class="container wow bounceInLeft hide-on-small-only">
+        <div class="col s12">
           <ul class="tabs">
-            <li class="tab col s3"><a class="brown-text text-darken-2 active" href="#test1">Empaticos</a></li>
-            <li class="tab col s3"><a class="brown-text text-darken-2" href="#test2">Comprometidos</a></li>
-            <li class="tab col s3"><a class="brown-text text-darken-2" href="#test3">Efectivos y Eficientes</a></li>
-            <li class="tab col s3"><a class="brown-text text-darken-2" href="#test4">Profesionalismo</a></li>
+            <li class="tab col s6"><a class="brown-text text-darken-2 active" href="#test1">Empaticos</a></li>
+            <li class="tab col s6"><a class="brown-text text-darken-2" href="#test2">Comprometidos</a></li>
+            <li class="tab col s6"><a class="brown-text text-darken-2" href="#test3">Efectivos y Eficientes</a></li>
+            <li class="tab col s6"><a class="brown-text text-darken-2" href="#test4">Profesionalismo</a></li>
           </ul>
         </div>
         <div id="test1" class="col s12"><h4>Empaticos</h4><p>Traduciéndose en hacer el mejor esfuerzo para entender los requerimientos de nuestros clientes, permitiéndonos implementar la mejor alternativa legar que resuelva sus situaciones de una manera eficaz y eficiente.</p></div>
@@ -85,36 +95,30 @@
       </div>
       <div class="space"></div>
       <div class="container row wow bounceInRight">
-        <div class="col s4">
+        <div class="col l4 s6">
           <div class="center promo promo-example">                
             <i class="large mdi-action-account-balance"></i>
             <p class="promo-caption">Bancario y Financiero</p>
+            <br class="hide-on-med-and-up">
             <a class="red accent-4 waves-effect waves-light btn modal-trigger" href="#modal7">Ver mas</a>
           </div>
         </div>
-
-        <div class="col s4">
-          <div class="center promo promo-example">
-            <i class="large mdi-editor-insert-chart"></i>
-            <p class="promo-caption">Corporativo y Transaccional</p>
-            <a class="red accent-4 waves-effect waves-light btn modal-trigger" href="#modal1">Ver mas</a>
-          </div>
-        </div>
-        <div class="col s4">
+        <div class="col l4 s6">
           <div class="center promo promo-example">                
             <i class="large mdi-action-account-child"></i>
             <p class="promo-caption">Laboral y Seguridad Social</p>
             <a class="red accent-4 waves-effect waves-light btn modal-trigger" href="#modal6">Ver mas</a>
           </div>
         </div>
-        <div class="col s4">
+
+        <div class="col l4 s6">
           <div class="center promo promo-example">
            <i class="large mdi-maps-store-mall-directory"></i>
            <p class="promo-caption">Operaciones en Materia Inmobiliaria – Infraestructura</p>
            <a class="red accent-4 waves-effect waves-light btn modal-trigger" href="#modal3">Ver mas</a>
          </div>
        </div>
-       <div class="col s4">
+       <div class="col l4 s6">
         <div class="center promo promo-example">                
           <i class="large mdi-action-assignment-ind"></i>
           <p class="promo-caption">Planeacion Fiscal – Litigio Fiscal y Administrativo</p>
@@ -122,14 +126,22 @@
         </div>
       </div>
 
-      <div class="col s4">
+      <div class="col l4 s6">
         <div class="center promo promo-example">
          <i class="large mdi-action-subject"></i>
          <p class="promo-caption">Propiedad Intelectual y Tecnologías de la Información </p>
          <a class="red accent-4 waves-effect waves-light btn modal-trigger" href="#modal2">Ver mas</a>
        </div>
      </div>
-     <div class="col s12">
+     <div class="col l4 s6">
+      <div class="center promo promo-example">
+        <i class="large mdi-editor-insert-chart"></i>
+        <p class="promo-caption">Corporativo y Transaccional</p>
+        <br>
+        <a class="red accent-4 waves-effect waves-light btn modal-trigger" href="#modal1">Ver mas</a>
+      </div>
+    </div>
+    <div class="col s12">
       <div class="center promo promo-example">                  
        <i class="large mdi-action-thumbs-up-down"></i>
        <p class="promo-caption">Litigio – Conflictos Mercantiles, Administrativos, Civiles y Constitucionales</p>
@@ -143,10 +155,10 @@
 </div>
 <div class="distance container row wow fadeIn">
 
-  <div class="col s4 card small">
+  <div class="col l4 s6 card small">
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Alfredo Gustavo Servin Padilla <i class="mdi-navigation-more-vert right"></i></span><br>
-      <img class="centeridm" src="assets/images/logomobil.png" >
+      <img class="centeridm hide-on-small-only"  src="assets/images/logomobil.png" >
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Socio en las áreas de Derecho Fiscal, Comercio Exterior y Derecho Administrativo. <i class="mdi-navigation-close right"></i></span>
@@ -186,10 +198,10 @@
           <p>Directo: 33 3001.6063</p>
         </div>
       </div>
-      <div class="col s4 card small">
+      <div class="col l4 s6 card small">
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Rodrigo Igareda Diez de Sollano <i class="mdi-navigation-more-vert right"></i></span><br>
-          <img class="centeridm" src="assets/images/logomobil.png" >
+          <img class="centeridm hide-on-small-only" src="assets/images/logomobil.png" >
         </div>
         <div class="card-reveal">
           <span class="card-title grey-text text-darken-4"> Socio en la Práctica de Corporativo e Inmobiliario <i class="mdi-navigation-close right"></i></span>
@@ -233,10 +245,10 @@
 
           </div>
         </div>
-        <div class="col s4 card small">
+        <div class="col l4 s6 card small">
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Alejandro Gallardo Aguilar <i class="mdi-navigation-more-vert right"></i></span><br>
-            <img class="centeridm" src="assets/images/logomobil.png" >
+            <img class="centeridm hide-on-small-only" src="assets/images/logomobil.png" >
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Socio en las prácticas de Corporativo y de Propiedad Intelectual <i class="mdi-navigation-close right"></i></span>
@@ -273,10 +285,10 @@
             <p>Directo:  33 3001.6060</p>
           </div>
         </div>
-        <div class="offset-s2  col s4 card small">
+        <div class="offset-l2  col l4 s6 card small">
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Carlos Murillo Navarro <i class="mdi-navigation-more-vert right"></i></span><br>
-            <img class="centeridm" src="assets/images/logomobil.png" >
+            <img class="centeridm hide-on-small-only" src="assets/images/logomobil.png" >
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Socio en la Práctica de Corporativo e Inmobiliario <i class="mdi-navigation-close right"></i></span><br>
@@ -322,11 +334,11 @@
 
         </div>
       </div>
-      <div class="col s4 card small">
+      <div class="col l4 s6 card small">
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Manuel Rodríguez Díaz <i class="mdi-navigation-more-vert right"></i></span>
           <br>
-          <img class="centeridm" src="assets/images/logomobil.png" >
+          <img class="centeridm hide-on-small-only" src="assets/images/logomobil.png" >
 
         </div>
         <div class="card-reveal">
@@ -494,291 +506,293 @@
               <p>Torre Cube </p>
               <p>Blvd. Puerta de Hierro 5210 Piso 1</p>
               <p>C.P. 45110 México</p>
-                <p>Piso 4, Col. Zona Río, </p>
-                <p>Zapopan, Jalisco.</p>
+              <p>Piso 4, Col. Zona Río, </p>
+              <p>Zapopan, Jalisco.</p>
+              <h6 class="mdi-hardware-phone-android">Telefono</h6>
+              <p>(+52) 33 3001 6060</p>
+              <h6>Fax</h6>
+              <p>(+52) 33 3001 6069</p></address> 
+            </div>
+
+            <div class="col s12 m4 l4 contact-holder">
+              <address class="font11">
+                <h4>Ciudad de Mexico</h4>
+                <p>Torre A, Int. 304 B</p>
+                <p>Bosques de Las Lomas</p>
+                <p>Paseo de Los Laureles No. 458,</p>
+                <p>Cuajimalpa de Morelos, México, D.F. </p>
                 <h6 class="mdi-hardware-phone-android">Telefono</h6>
-                <p>(+52) 33 3001 6060</p>
-                <h6>Fax</h6>
-                <p>(+52) 33 3001 6069</p></address> 
+                <p>Tel. (+52) 55 1327-0449</p>
+              </address> 
+            </div>
+            <div class="whitebell"></div>
+          </div>
+
+          <!--parallaxabodado end-->
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l12 s12">
+                  <h5 class="white-text">GISR</h5>
+                  <a class="col s6 grey-text text-lighten-4">Derechos reservados</a>
+                  <a class="col s6 grey-text text-lighten-4 modal-trigger" href="#terms">Aviso de Privacidad</a>
+                </div>
               </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                <div class="col s12 m4 l2">© 2015 GISR</div>
 
-              <div class="col s12 m4 l4 contact-holder">
-                <address class="font11">
-                  <h4>Ciudad de Mexico</h4>
-                  <p>Torre A, Int. 304 B</p>
-                  <p>Bosques de Las Lomas</p>
-                    <p>Paseo de Los Laureles No. 458,</p>
-                    <p>Cuajimalpa de Morelos, México, D.F. </p>
-                    <h6 class="mdi-hardware-phone-android">Telefono</h6>
-                    <p>Tel. (+52) 55 1327-0449</p>
-                  </address> 
-                  </div>
-                  <div class="whitebell"></div>
-                </div>
+              </div>
+            </div>
+          </footer>
+          <!--modales-->
+          <!--modal law and terms-->
+          <div id="law" class="modal">
+            <div class="modal-content">
+              <h4>LawExchange International</h4>
 
-                <!--parallaxabodado end-->
-                <footer class="page-footer">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col l12 s12">
-                        <h5 class="white-text">GISR</h5>
-                        <a class="col s6 grey-text text-lighten-4">Derechos reservados</a>
-                        <a class="col s6 grey-text text-lighten-4 modal-trigger" href="#terms">Aviso de Privacidad</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="footer-copyright">
-                    <div class="container">
-                      <div class="col s12 m4 l2">© 2015 GISR</div>
+              <p>LawExchange International es una organizaci&oacute;n internacional que agrupa a diferentes firmas de abogados independientes alrededor del mundo. La organizaci&oacute;n permite a las firmas miembro contar con acceso a servicios legales confiables y especializados a nivel mundial. Gallardo, Igareda, Serv&iacute;n, Rodriguez y Murillo es miembro de LawExchange International desde el 2010 y es la firma representante de la organizaci&oacute;n en M&eacute;xico.</p>
 
-                    </div>
-                  </div>
-                </footer>
-                <!--modales-->
-                <!--modal law and terms-->
-                <div id="law" class="modal">
-                  <div class="modal-content">
-                    <h4>LawExchange International</h4>
+              <p>LawExchange International unifica diversas pr&aacute;cticas legales en las principales &aacute;reas de negocios, comercio, industria, tecnolog&iacute;a e investigaci&oacute;n en Europa, Estados Unidos, Am&eacute;rica Latina y las regiones de Asia y Pac&iacute;fico.</p>
 
-                    <p>LawExchange International es una organizaci&oacute;n internacional que agrupa a diferentes firmas de abogados independientes alrededor del mundo. La organizaci&oacute;n permite a las firmas miembro contar con acceso a servicios legales confiables y especializados a nivel mundial. Gallardo, Igareda, Serv&iacute;n, Rodriguez y Murillo es miembro de LawExchange International desde el 2010 y es la firma representante de la organizaci&oacute;n en M&eacute;xico.</p>
+              <p>Como miembro de la organizaci&oacute;n, hemos fortalecido nuestro perfil como una firma de car&aacute;cter internacional, capaz de proveer a nuestros clientes con acceso a una organizaci&oacute;n mundial de abogados de negocios calificados, compartiendo los mismos compromisos de calidad y servicio.</p>
 
-                    <p>LawExchange International unifica diversas pr&aacute;cticas legales en las principales &aacute;reas de negocios, comercio, industria, tecnolog&iacute;a e investigaci&oacute;n en Europa, Estados Unidos, Am&eacute;rica Latina y las regiones de Asia y Pac&iacute;fico.</p>
+              <p>Adem&aacute;s, LawExchange nos ha permitido asesorar legalmente a clientes provenientes de Nueva York, Chicago, Boston, California, Espa&ntilde;a, Brasil, India e Israel, entre otros, con relaci&oacute;n a sus inversiones y proyectos en M&eacute;xico.</p>
 
-                    <p>Como miembro de la organizaci&oacute;n, hemos fortalecido nuestro perfil como una firma de car&aacute;cter internacional, capaz de proveer a nuestros clientes con acceso a una organizaci&oacute;n mundial de abogados de negocios calificados, compartiendo los mismos compromisos de calidad y servicio.</p>
+              <p>Para m&aacute;s informaci&oacute;n sobre LawExchange International no dude en visitar <a href="http://www.lawexchange.org/">lawexchange.org</a></p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+            </div>
+          </div>
 
-                    <p>Adem&aacute;s, LawExchange nos ha permitido asesorar legalmente a clientes provenientes de Nueva York, Chicago, Boston, California, Espa&ntilde;a, Brasil, India e Israel, entre otros, con relaci&oacute;n a sus inversiones y proyectos en M&eacute;xico.</p>
+          <div id="terms" class="modal">
+            <div class="modal-content">
+              <h4>AVISO DE PRIVACIDAD</h4>
 
-                    <p>Para m&aacute;s informaci&oacute;n sobre LawExchange International no dude en visitar <a href="http://www.lawexchange.org/">lawexchange.org</a></p>
-                  </div>
-                  <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                  </div>
-                </div>
+              <p>Protecci&oacute;n de Datos Personales en Posesi&oacute;n de Particulares</p>
 
-                <div id="terms" class="modal">
-                  <div class="modal-content">
-                    <h4>AVISO DE PRIVACIDAD</h4>
+              <p> Para GALLARDO, IGAREDA, SERV&Iacute;N Y RODRIGUEZ S.C. (en lo sucesivo &ldquo;GISR&rdquo;) con domicilio en Blvd. Puerta de Hierro 5210 primer piso B, Fraccionamiento Puerta de Hierro, la privacidad y el manejo de la informaci&oacute;n que usted nos proporciona es muy importante, es por ello que protegemos su informaci&oacute;n y datos personales en estricto apego a lo dispuesto por la Ley Federal de Protecci&oacute;n de Datos Personales en Posesi&oacute;n de los Particulares (en lo sucesivo la &ldquo;Ley&rdquo;).</p>
 
-                    <p>Protecci&oacute;n de Datos Personales en Posesi&oacute;n de Particulares</p>
+              <p>Le informamos que el presente aviso de privacidad est&aacute; disponible en todo momento en nuestro portal de Internet: http://gisr.com/site/ y dentro de nuestras instalaciones en el domicilio arriba se&ntilde;alado, por lo que se entiende que usted consiente t&aacute;citamente en el tratamiento de su informaci&oacute;n y datos personales a la luz del presente aviso de privacidad si no manifiesta oposici&oacute;n expresa al mismo.</p>
 
-                    <p> Para GALLARDO, IGAREDA, SERV&Iacute;N Y RODRIGUEZ S.C. (en lo sucesivo &ldquo;GISR&rdquo;) con domicilio en Blvd. Puerta de Hierro 5210 primer piso B, Fraccionamiento Puerta de Hierro, la privacidad y el manejo de la informaci&oacute;n que usted nos proporciona es muy importante, es por ello que protegemos su informaci&oacute;n y datos personales en estricto apego a lo dispuesto por la Ley Federal de Protecci&oacute;n de Datos Personales en Posesi&oacute;n de los Particulares (en lo sucesivo la &ldquo;Ley&rdquo;).</p>
+              <p>Los datos personales recabados ser&aacute;n utilizados para las siguientes finalidades (i) dar cumplimiento a las obligaciones contra&iacute;das con nuestros clientes; (ii) informar sobre cambios o nuevos m&eacute;todos que est&eacute;n relacionados con el servicio contratado.<br />
+                Para las finalidades se&ntilde;aladas en el presente aviso de privacidad, podemos recabar sus datos personales de distintas formas, (i) cuando usted nos los proporciona directamente (ii) cuando obtenemos informaci&oacute;n a trav&eacute;s de otras fuentes que est&aacute;n permitidas por la ley.</p>
 
-                    <p>Le informamos que el presente aviso de privacidad est&aacute; disponible en todo momento en nuestro portal de Internet: http://gisr.com/site/ y dentro de nuestras instalaciones en el domicilio arriba se&ntilde;alado, por lo que se entiende que usted consiente t&aacute;citamente en el tratamiento de su informaci&oacute;n y datos personales a la luz del presente aviso de privacidad si no manifiesta oposici&oacute;n expresa al mismo.</p>
+                <p>Los datos personales que recabamos de forma directa son de identificaci&oacute;n, laborales y patrimoniales, en algunos casos.</p>
 
-                    <p>Los datos personales recabados ser&aacute;n utilizados para las siguientes finalidades (i) dar cumplimiento a las obligaciones contra&iacute;das con nuestros clientes; (ii) informar sobre cambios o nuevos m&eacute;todos que est&eacute;n relacionados con el servicio contratado.<br />
-                      Para las finalidades se&ntilde;aladas en el presente aviso de privacidad, podemos recabar sus datos personales de distintas formas, (i) cuando usted nos los proporciona directamente (ii) cuando obtenemos informaci&oacute;n a trav&eacute;s de otras fuentes que est&aacute;n permitidas por la ley.</p>
+                <p>Nos comprometemos a no transferir su informaci&oacute;n personal a terceros sin su consentimiento, excepto cuando se tenga el prop&oacute;sito de cumplir con alg&uacute;n ordenamiento judicial, y se realizara esta transferencia en los t&eacute;rminos que fija la ley.</p>
 
-                      <p>Los datos personales que recabamos de forma directa son de identificaci&oacute;n, laborales y patrimoniales, en algunos casos.</p>
+                <p>Los datos personales ser&aacute;n resguardados por el responsable de datos personales de GISR, ante quien puede ejercer sus derechos de acceso, rectificaci&oacute;n, cancelaci&oacute;n u oposici&oacute;n (ARCO) al tratamiento de datos personales, as&iacute; como limitar el uso o divulgaci&oacute;n de dichos datos personales, mediante solicitud por escrito, que contenga nombre del titular y domicilio para notificar respuesta, identificaci&oacute;n oficial, descripci&oacute;n del derecho que desea ejercer, dirigida a: alfredo.servin@gisr.com</p>
 
-                      <p>Nos comprometemos a no transferir su informaci&oacute;n personal a terceros sin su consentimiento, excepto cuando se tenga el prop&oacute;sito de cumplir con alg&uacute;n ordenamiento judicial, y se realizara esta transferencia en los t&eacute;rminos que fija la ley.</p>
+                <p>Usted tiene derecho de acceder a sus datos personales y a los detalles del tratamiento de los mismos, as&iacute; como a rectificarlos en caso de ser inexactos o incompletos; cancelarlos cuando considere conveniente o bien, oponerse al tratamiento de los mismos para fines espec&iacute;ficos. En todo momento usted podr&aacute; revocar el consentimiento que nos ha otorgado para el tratamiento de sus datos personales, a fin de que dejemos de hacer uso de los mismos. Los mecanismos que se han implementado para el ejercicio de dichos derechos son a trav&eacute;s de la presentaci&oacute;n de la solicitud respectiva dirigida a Alfredo Gustavo Servin Padilla, en nuestras instalaciones o a trav&eacute;s del correo electr&oacute;nico alfredo.servin@gisr.com.</p>
 
-                      <p>Los datos personales ser&aacute;n resguardados por el responsable de datos personales de GISR, ante quien puede ejercer sus derechos de acceso, rectificaci&oacute;n, cancelaci&oacute;n u oposici&oacute;n (ARCO) al tratamiento de datos personales, as&iacute; como limitar el uso o divulgaci&oacute;n de dichos datos personales, mediante solicitud por escrito, que contenga nombre del titular y domicilio para notificar respuesta, identificaci&oacute;n oficial, descripci&oacute;n del derecho que desea ejercer, dirigida a: alfredo.servin@gisr.com</p>
+                <p>Su solicitud deber&aacute; contener la siguiente informaci&oacute;n (i) nombre; (ii) domicilio; (iii) medio para comunicar respuesta; (iv) copia de identificaci&oacute;n oficial; (v) descripci&oacute;n del derecho que desea ejercer; (vi) documentos que faciliten la localizaci&oacute;n de los datos personales; (vii) en caso de solicitar la modificaci&oacute;n, documento que sustente la solicitud. El plazo para atender su solicitud es de 20 d&iacute;as h&aacute;biles. Para mayor informaci&oacute;n favor de comunicarse al departamento de privacidad: alfredo.servin@gisr.com</p>
 
-                      <p>Usted tiene derecho de acceder a sus datos personales y a los detalles del tratamiento de los mismos, as&iacute; como a rectificarlos en caso de ser inexactos o incompletos; cancelarlos cuando considere conveniente o bien, oponerse al tratamiento de los mismos para fines espec&iacute;ficos. En todo momento usted podr&aacute; revocar el consentimiento que nos ha otorgado para el tratamiento de sus datos personales, a fin de que dejemos de hacer uso de los mismos. Los mecanismos que se han implementado para el ejercicio de dichos derechos son a trav&eacute;s de la presentaci&oacute;n de la solicitud respectiva dirigida a Alfredo Gustavo Servin Padilla, en nuestras instalaciones o a trav&eacute;s del correo electr&oacute;nico alfredo.servin@gisr.com.</p>
+                <p>GISR se reserva el derecho de modificar en cualquier momento el presente aviso de privacidad, ya sea para la atenci&oacute;n de modificaciones legislativas, regulatorias o jurisprudenciales, pol&iacute;ticas internas, pr&aacute;cticas del mercado o por cualquier otra raz&oacute;n. Cualquier modificaci&oacute;n al presente aviso le ser&aacute; notificada mediante (i) anuncios visibles en nuestras oficinas; (ii) tr&iacute;pticos o folletos disponibles en nuestras oficinas; (iii) en nuestra p&aacute;gina de Internet; (iv) o mediante aviso a usted enviado por escrito o v&iacute;a electr&oacute;nica, a discreci&oacute;n de GISR al &uacute;ltimo correo electr&oacute;nico que nos haya proporcionado.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h4>Corporativo y Transaccional</h4>
+                <p>Nuestro equipo abogados de la práctica de Corporativo & Transaccional trabaja con sociedades, asociaciones y coinversiones, especialmente en asuntos relacionados con lo siguiente:</p>
+                <ul class="collection with-header">
+                  <li class="collection-item">Constitución y cumplimiento regulatorio de sociedades, asociaciones y entidades en general</li>
+                  <li class="collection-item">Constitución y cumplimiento regulatorio de sociedades constituidas para un propósito articular así como entidades financieras y para-financieras</li>
+                  <li class="collection-item">Regulación en inversión extranjera</li>
+                  <li class="collection-item">Gobierno corporativo</li>
+                  <li class="collection-item">Derechos mayoritarios y minoritarios, derechos especiales, tales como derechos de veto, restricciones, entre otros</li>
+                  <li class="collection-item">Acuerdos de salida, terminación y resolución de controversias</li>
+                  <li class="collection-item">Inversiones con capital privado</li>
+                  <li class="collection-item">Operaciones a través de todo tipo de fideicomisos</li>
+                  <li class="collection-item">Fusiones, adquisiciones, escisiones, reestructuración corporativa, transformaciones, disolución y liquidación de sociedades</li>
+                  <li class="collection-item">Contratos comerciales, tales como distribución, comisión, manufactura y almacenamiento</li>
+                  <li class="collection-item">Operaciones entre partes relacionadas</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal2" class="modal">
+              <div class="modal-content">
+                <h4>Propiedad Intelectual y Tecnologías de la Información</h4>
+                <p>Nuestros abogados entienden el valor e importancia de los activos intangibles, y por ello tenemos la capacidad de ofrecer servicios legales y asistencia t&eacute;cnica para el registro, protecci&oacute;n y mantenimiento de derechos de propiedad industrial (marcas, avisos comerciales, patentes, modelos y dise&ntilde;os industriales), derechos de propiedad intelectual (incluyendo software) y nombres de dominio; as&iacute; como para la representaci&oacute;n de nuestros clientes en procedimientos administrativos y judiciales que involucren dichos derechos.</p>
 
-                      <p>Su solicitud deber&aacute; contener la siguiente informaci&oacute;n (i) nombre; (ii) domicilio; (iii) medio para comunicar respuesta; (iv) copia de identificaci&oacute;n oficial; (v) descripci&oacute;n del derecho que desea ejercer; (vi) documentos que faciliten la localizaci&oacute;n de los datos personales; (vii) en caso de solicitar la modificaci&oacute;n, documento que sustente la solicitud. El plazo para atender su solicitud es de 20 d&iacute;as h&aacute;biles. Para mayor informaci&oacute;n favor de comunicarse al departamento de privacidad: alfredo.servin@gisr.com</p>
+                <p>Brindamos asesor&iacute;a en la negociaci&oacute;n de contratos de licencia de uso y cesi&oacute;n de derechos de propiedad intelectual, as&iacute; como en la implementaci&oacute;n de estrategias de otorgamiento o contrataci&oacute;n de franquicias.</p>
 
-                      <p>GISR se reserva el derecho de modificar en cualquier momento el presente aviso de privacidad, ya sea para la atenci&oacute;n de modificaciones legislativas, regulatorias o jurisprudenciales, pol&iacute;ticas internas, pr&aacute;cticas del mercado o por cualquier otra raz&oacute;n. Cualquier modificaci&oacute;n al presente aviso le ser&aacute; notificada mediante (i) anuncios visibles en nuestras oficinas; (ii) tr&iacute;pticos o folletos disponibles en nuestras oficinas; (iii) en nuestra p&aacute;gina de Internet; (iv) o mediante aviso a usted enviado por escrito o v&iacute;a electr&oacute;nica, a discreci&oacute;n de GISR al &uacute;ltimo correo electr&oacute;nico que nos haya proporcionado.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal1" class="modal">
-                    <div class="modal-content">
-                      <h4>Corporativo y Transaccional</h4>
-                      <p>Nuestro equipo abogados de la práctica de Corporativo & Transaccional trabaja con sociedades, asociaciones y coinversiones, especialmente en asuntos relacionados con lo siguiente:</p>
-                      <ul class="collection with-header">
-                        <li class="collection-item">Constitución y cumplimiento regulatorio de sociedades, asociaciones y entidades en general</li>
-                        <li class="collection-item">Constitución y cumplimiento regulatorio de sociedades constituidas para un propósito articular así como entidades financieras y para-financieras</li>
-                        <li class="collection-item">Regulación en inversión extranjera</li>
-                        <li class="collection-item">Gobierno corporativo</li>
-                        <li class="collection-item">Derechos mayoritarios y minoritarios, derechos especiales, tales como derechos de veto, restricciones, entre otros</li>
-                        <li class="collection-item">Acuerdos de salida, terminación y resolución de controversias</li>
-                        <li class="collection-item">Inversiones con capital privado</li>
-                        <li class="collection-item">Operaciones a través de todo tipo de fideicomisos</li>
-                        <li class="collection-item">Fusiones, adquisiciones, escisiones, reestructuración corporativa, transformaciones, disolución y liquidación de sociedades</li>
-                        <li class="collection-item">Contratos comerciales, tales como distribución, comisión, manufactura y almacenamiento</li>
-                        <li class="collection-item">Operaciones entre partes relacionadas</li>
-                      </ul>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal2" class="modal">
-                    <div class="modal-content">
-                      <h4>Propiedad Intelectual y Tecnologías de la Información</h4>
-                      <p>Nuestros abogados entienden el valor e importancia de los activos intangibles, y por ello tenemos la capacidad de ofrecer servicios legales y asistencia t&eacute;cnica para el registro, protecci&oacute;n y mantenimiento de derechos de propiedad industrial (marcas, avisos comerciales, patentes, modelos y dise&ntilde;os industriales), derechos de propiedad intelectual (incluyendo software) y nombres de dominio; as&iacute; como para la representaci&oacute;n de nuestros clientes en procedimientos administrativos y judiciales que involucren dichos derechos.</p>
+                <p>Nuestros servicios tambi&eacute;n comprenden el an&aacute;lisis e implementaci&oacute;n de estrategias que permitan el resguardo y protecci&oacute;n de secretos industriales, informaci&oacute;n confidencial e informaci&oacute;n que involucre datos personales, que incluyen la preparaci&oacute;n y negociaci&oacute;n de contratos de confidencialidad y de transferencia de tecnolog&iacute;a y know-how, y de los documentos necesarios para la captaci&oacute;n, resguardo, uso y transmisi&oacute;n de datos personales.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal3" class="modal">
+              <div class="modal-content">
+                <h4>Operaciones en Materia Inmobiliaria – Infraestructura</h4>
+                <p>Las operaciones en materia inmobiliaria que atendemos, se relacionan con proyectos de venta, adquisición y ejecución de desarrollos inmobiliarios residenciales, comerciales e industriales, apoyando a nuestros clientes en asuntos como:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Acuerdos preliminares, cartas de intención, opciones, contratos de promesa, adquisiciones y cartas de entendimiento</li>
+                  <li class="mdi-content-send collection-item">Revisión de título y auditorias legales</li>
+                  <li class="mdi-content-sendcollection-item">Vehículos especiales de inversión</li>
+                  <li class="mdi-content-send collection-item">Adquisiciones apalancadas</li>
+                  <li class="mdi-content-sendcollection-item">Fideicomisos inmobiliarios</li>
+                  <li class="mdi-content-send collection-item">Contratos Escrow y otros contratos de garantía</li>
+                  <li class="mdi-content-send collection-item">Gestión y negociación de seguros de titulo inmobiliario</li>
+                </ul>
+                <p>Adicionalmente, nuestra práctica inmobiliaria se involucra constantemente en la administración de activos inmobiliarios, prestando los siguientes servicios:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Contratos de construcción, comerciales, y de servicios de arrendamiento</li>
+                  <li class="mdi-content-send collection-item">Zonificación, desarrollo urbano, asentamientos urbanos y regulación de condominios</li>
+                  <li class="mdi-content-send collection-item">Esquema de copropiedad, multipropiedad y tiempos compartidos</li>
+                  <li class="mdi-content-send collection-item">Reglamentos internos, asociaciones condominales y de colonos</li>
+                  <li class="mdi-content-send collection-item">Adquisiciones dentro de zona restringida, concesiones sobre zona federal marítima, terrestre y permisos espaciales</li>
+                  <li class="mdi-content-send collection-item">Fideicomisos de administración inmobiliaria</li>
+                </ul>
+                <p>Nuestra práctica incluye asesoría en la ejecución de operaciones con ejidos. El equipo que conforma nuestra práctica en infraestructura cuenta con resultados probados en la obtención de incentivos y subsidios gubernamentales, concesiones y procesos de licitación, incluyendo licencias y permisos para usar y explotar recursos naturales.</p>
+                <p>Hemos asesorado a empresas involucradas en la industria de generación de energía alterna, telecomunicaciones y servicios ferroviarios, desarrollo de carreteras, transportación, distribución y venta de gas natural, asuntos mineros, tratamiento y distribución de agua, servicios aeroportuarios.</p>
 
-                      <p>Brindamos asesor&iacute;a en la negociaci&oacute;n de contratos de licencia de uso y cesi&oacute;n de derechos de propiedad intelectual, as&iacute; como en la implementaci&oacute;n de estrategias de otorgamiento o contrataci&oacute;n de franquicias.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal4" class="modal">
+              <div class="modal-content">
+                <h4>Litigio – Conflictos Mercantiles, Administrativos, Civiles y Constitucionales</h4>
+                <p>El equipo de pr&aacute;ctica de litigio est&aacute; especializado y cuenta con experiencia para llevar procesos en materia mercantil, administrativa y civil, as&iacute; como medios alternos de soluciones de controversias en relaci&oacute;n con:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Cumplimiento forzoso de contratos</li>
+                  <li class="mdi-content-send collection-item">Incumplimiento de contratos</li>
+                  <li class="mdi-content-send collection-item">Conflicto entre accionistas</li>
+                  <li class="mdi-content-send collection-item">Conflictos entre socios derivados de asociaciones “joint ventures” o contratos de co-inversión</li>
+                  <li class="mdi-content-send collection-item">Quiebras</li>
+                  <li class="mdi-content-send collection-item">Concursos mercantiles</li>
+                  <li class="mdi-content-send collection-item">Terminación anticipada de contratos</li>
+                  <li class="mdi-content-send collection-item">Derechos de posesión, propiedad y adquisiciones sobre bienes inmuebles</li>
+                  <li class="mdi-content-send collection-item">Controversias constitucionales y ejecución de laudos arbitrales</li>
+                </ul>
+                <p>Nuestros abogados litigantes son capaces de combatir constitucionalmente a las autoridades y leyes que afecten los intereses o negocios de nuestros clientes en sus derechos (procedimientos de amparo) . Como abogados de negocios, representamos tanto instituciones financieras como no financieras, organismos empresariales y empresas en la recuperaci&oacute;n de cr&eacute;ditos o cualquier tipo de controversia.</p>
 
-                      <p>Nuestros servicios tambi&eacute;n comprenden el an&aacute;lisis e implementaci&oacute;n de estrategias que permitan el resguardo y protecci&oacute;n de secretos industriales, informaci&oacute;n confidencial e informaci&oacute;n que involucre datos personales, que incluyen la preparaci&oacute;n y negociaci&oacute;n de contratos de confidencialidad y de transferencia de tecnolog&iacute;a y know-how, y de los documentos necesarios para la captaci&oacute;n, resguardo, uso y transmisi&oacute;n de datos personales.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal3" class="modal">
-                    <div class="modal-content">
-                      <h4>Operaciones en Materia Inmobiliaria – Infraestructura</h4>
-                      <p>Las operaciones en materia inmobiliaria que atendemos, se relacionan con proyectos de venta, adquisición y ejecución de desarrollos inmobiliarios residenciales, comerciales e industriales, apoyando a nuestros clientes en asuntos como:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Acuerdos preliminares, cartas de intención, opciones, contratos de promesa, adquisiciones y cartas de entendimiento</li>
-                        <li class="mdi-content-send collection-item">Revisión de título y auditorias legales</li>
-                        <li class="mdi-content-sendcollection-item">Vehículos especiales de inversión</li>
-                        <li class="mdi-content-send collection-item">Adquisiciones apalancadas</li>
-                        <li class="mdi-content-sendcollection-item">Fideicomisos inmobiliarios</li>
-                        <li class="mdi-content-send collection-item">Contratos Escrow y otros contratos de garantía</li>
-                        <li class="mdi-content-send collection-item">Gestión y negociación de seguros de titulo inmobiliario</li>
-                      </ul>
-                      <p>Adicionalmente, nuestra práctica inmobiliaria se involucra constantemente en la administración de activos inmobiliarios, prestando los siguientes servicios:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Contratos de construcción, comerciales, y de servicios de arrendamiento</li>
-                        <li class="mdi-content-send collection-item">Zonificación, desarrollo urbano, asentamientos urbanos y regulación de condominios</li>
-                        <li class="mdi-content-send collection-item">Esquema de copropiedad, multipropiedad y tiempos compartidos</li>
-                        <li class="mdi-content-send collection-item">Reglamentos internos, asociaciones condominales y de colonos</li>
-                        <li class="mdi-content-send collection-item">Adquisiciones dentro de zona restringida, concesiones sobre zona federal marítima, terrestre y permisos espaciales</li>
-                        <li class="mdi-content-send collection-item">Fideicomisos de administración inmobiliaria</li>
-                      </ul>
-                      <p>Nuestra práctica incluye asesoría en la ejecución de operaciones con ejidos. El equipo que conforma nuestra práctica en infraestructura cuenta con resultados probados en la obtención de incentivos y subsidios gubernamentales, concesiones y procesos de licitación, incluyendo licencias y permisos para usar y explotar recursos naturales.</p>
-                      <p>Hemos asesorado a empresas involucradas en la industria de generación de energía alterna, telecomunicaciones y servicios ferroviarios, desarrollo de carreteras, transportación, distribución y venta de gas natural, asuntos mineros, tratamiento y distribución de agua, servicios aeroportuarios.</p>
+                <p>Representamos a proveedores de productos y servicios atendiendo quejas ante la Procuradur&iacute;a Federal del Consumidor (PROFECO) en asuntos sobre publicidad, responsabilidad sobre productos, controversias sobre propiedades tur&iacute;sticas y comerciales, y manejamos apelaciones ante las resoluciones administrativas de autoridades.</p>
 
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal4" class="modal">
-                    <div class="modal-content">
-                      <h4>Litigio – Conflictos Mercantiles, Administrativos, Civiles y Constitucionales</h4>
-                      <p>El equipo de pr&aacute;ctica de litigio est&aacute; especializado y cuenta con experiencia para llevar procesos en materia mercantil, administrativa y civil, as&iacute; como medios alternos de soluciones de controversias en relaci&oacute;n con:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Cumplimiento forzoso de contratos</li>
-                        <li class="mdi-content-send collection-item">Incumplimiento de contratos</li>
-                        <li class="mdi-content-send collection-item">Conflicto entre accionistas</li>
-                        <li class="mdi-content-send collection-item">Conflictos entre socios derivados de asociaciones “joint ventures” o contratos de co-inversión</li>
-                        <li class="mdi-content-send collection-item">Quiebras</li>
-                        <li class="mdi-content-send collection-item">Concursos mercantiles</li>
-                        <li class="mdi-content-send collection-item">Terminación anticipada de contratos</li>
-                        <li class="mdi-content-send collection-item">Derechos de posesión, propiedad y adquisiciones sobre bienes inmuebles</li>
-                        <li class="mdi-content-send collection-item">Controversias constitucionales y ejecución de laudos arbitrales</li>
-                      </ul>
-                      <p>Nuestros abogados litigantes son capaces de combatir constitucionalmente a las autoridades y leyes que afecten los intereses o negocios de nuestros clientes en sus derechos (procedimientos de amparo) . Como abogados de negocios, representamos tanto instituciones financieras como no financieras, organismos empresariales y empresas en la recuperaci&oacute;n de cr&eacute;ditos o cualquier tipo de controversia.</p>
+                <p>Nuestro equipo en materia de litigio tiene experiencia para atender y asesorar empresas en la resoluci&oacute;n de sus conflictos a trav&eacute;s de Medios Alternos de Soluci&oacute;n de Controversias, lo cual implica que podemos atender negociaciones en representaci&oacute;n de nuestros clientes para acuerdos sobre convenios, contratos, adeudos, actuando algunas ocasiones en la negociaci&oacute;n, bien como medidores o representantes de nuestros clientes ya en alg&uacute;n procedimiento arbitral con dos o m&aacute;s partes involucradas.</p>
 
-                      <p>Representamos a proveedores de productos y servicios atendiendo quejas ante la Procuradur&iacute;a Federal del Consumidor (PROFECO) en asuntos sobre publicidad, responsabilidad sobre productos, controversias sobre propiedades tur&iacute;sticas y comerciales, y manejamos apelaciones ante las resoluciones administrativas de autoridades.</p>
+                <p>Dado nuestro perfil orientado a negocios y comercio, constantemente emitimos opiniones con relaci&oacute;n a potenciales litigios, en donde siempre nuestro principal objetivo es llegar a litigio como &uacute;ltima opci&oacute;n, favorecemos a salvar relaciones de negocio valiosas con procedimientos que favorezcan a resolver los conflictos, tales como mediaci&oacute;n, amigable composici&oacute;n y arbitraje.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal5" class="modal">
+              <div class="modal-content">
+                <h4>Planeacion Fiscal – Litigio Fiscal y Administrativo</h4>
+                <p>La experiencia de los abogados que integran el &aacute;rea fiscal respalda los servicios de alta calidad que brindamos a nuestro clientes, tomando en cuenta la din&aacute;mica constante de la legislaci&oacute;n en materia de impuestos para ofrecer las mejores opciones en materia de consultor&iacute;a y litigio a nivel municipal, estatal y federal.</p>
 
-                      <p>Nuestro equipo en materia de litigio tiene experiencia para atender y asesorar empresas en la resoluci&oacute;n de sus conflictos a trav&eacute;s de Medios Alternos de Soluci&oacute;n de Controversias, lo cual implica que podemos atender negociaciones en representaci&oacute;n de nuestros clientes para acuerdos sobre convenios, contratos, adeudos, actuando algunas ocasiones en la negociaci&oacute;n, bien como medidores o representantes de nuestros clientes ya en alg&uacute;n procedimiento arbitral con dos o m&aacute;s partes involucradas.</p>
+                <p>Como abogados de negocios enfocados a las actividades empresariales de personas f&iacute;sicas y morales, junto con otras l&iacute;neas de servicios, hemos creado equipos de trabajo eficientes en las siguientes materias:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Planeación en materia de impuestos locales y federales</li>
+                  <li class="mdi-content-send collection-item">Planeación respecto de las diferentes figuras legales de negocios relacionados con el sector financiero, contratos de asociación en participación (join-ventures), fusiones, adquisiciones y escisiones, incluyendo reorganizaciones corporativas y transacciones tales como licitaciones públicas e inversiones de capital privado.</li>
+                  <li class="mdi-content-send collection-item">Con la participación de los abogados de nuestra área laboral estructuramos esquemas de compensaciones para trabajadores y otros esquemas legales</li>
+                  <li class="mdi-content-send collection-item">Como complemento de nuestros servicios en materia inmobiliaria, el área fiscal asesora a las personas físicas o morales mediante la elaboración de opiniones respecto del impacto en materia de impuestos locales y federales que se originan por la adquisición de bienes raíces a través de adquisiciones directas o mediante algún esquema financiero.</li>
+                  <li class="mdi-content-send collection-item">Como asesores corporativos y en materia tributaria hacemos especial énfasis en la participación de nuestro equipo de abogados en caso de que las autoridades ejerciten sus facultades fiscales de revisión, ya sea mediante requerimiento de documentos o auditorias directas con la finalidad de hacer una adecuada defensa de los intereses de nuestros clientes a partir del inicio de las facultades de comprobación de las autoridades.</li>
+                </ul>
+                <p>Nuestra amplia experiencia en materia de comercio internacional nos permite asesorar a nuestros clientes acerca de los tr&aacute;mites y procedimientos de importaci&oacute;n y exportaci&oacute;n de mercanc&iacute;as, respecto de los aranceles aplicables, cumplimiento de obligaciones no arancelarias y programas de importaci&oacute;n y exportaci&oacute;n.</p>
 
-                      <p>Dado nuestro perfil orientado a negocios y comercio, constantemente emitimos opiniones con relaci&oacute;n a potenciales litigios, en donde siempre nuestro principal objetivo es llegar a litigio como &uacute;ltima opci&oacute;n, favorecemos a salvar relaciones de negocio valiosas con procedimientos que favorezcan a resolver los conflictos, tales como mediaci&oacute;n, amigable composici&oacute;n y arbitraje.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal5" class="modal">
-                    <div class="modal-content">
-                      <h4>Planeacion Fiscal – Litigio Fiscal y Administrativo</h4>
-                      <p>La experiencia de los abogados que integran el &aacute;rea fiscal respalda los servicios de alta calidad que brindamos a nuestro clientes, tomando en cuenta la din&aacute;mica constante de la legislaci&oacute;n en materia de impuestos para ofrecer las mejores opciones en materia de consultor&iacute;a y litigio a nivel municipal, estatal y federal.</p>
+                <p>Asimismo, la experiencia de los abogados que integran el &aacute;rea fiscal les permite emitir opiniones acerca de los efectos respecto de la aplicaci&oacute;n de tratados para evitar la doble tributaci&oacute;n de los que M&eacute;xico no es parte.</p>
 
-                      <p>Como abogados de negocios enfocados a las actividades empresariales de personas f&iacute;sicas y morales, junto con otras l&iacute;neas de servicios, hemos creado equipos de trabajo eficientes en las siguientes materias:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Planeación en materia de impuestos locales y federales</li>
-                        <li class="mdi-content-send collection-item">Planeación respecto de las diferentes figuras legales de negocios relacionados con el sector financiero, contratos de asociación en participación (join-ventures), fusiones, adquisiciones y escisiones, incluyendo reorganizaciones corporativas y transacciones tales como licitaciones públicas e inversiones de capital privado.</li>
-                        <li class="mdi-content-send collection-item">Con la participación de los abogados de nuestra área laboral estructuramos esquemas de compensaciones para trabajadores y otros esquemas legales</li>
-                        <li class="mdi-content-send collection-item">Como complemento de nuestros servicios en materia inmobiliaria, el área fiscal asesora a las personas físicas o morales mediante la elaboración de opiniones respecto del impacto en materia de impuestos locales y federales que se originan por la adquisición de bienes raíces a través de adquisiciones directas o mediante algún esquema financiero.</li>
-                        <li class="mdi-content-send collection-item">Como asesores corporativos y en materia tributaria hacemos especial énfasis en la participación de nuestro equipo de abogados en caso de que las autoridades ejerciten sus facultades fiscales de revisión, ya sea mediante requerimiento de documentos o auditorias directas con la finalidad de hacer una adecuada defensa de los intereses de nuestros clientes a partir del inicio de las facultades de comprobación de las autoridades.</li>
-                      </ul>
-                      <p>Nuestra amplia experiencia en materia de comercio internacional nos permite asesorar a nuestros clientes acerca de los tr&aacute;mites y procedimientos de importaci&oacute;n y exportaci&oacute;n de mercanc&iacute;as, respecto de los aranceles aplicables, cumplimiento de obligaciones no arancelarias y programas de importaci&oacute;n y exportaci&oacute;n.</p>
+                <p>Nuestra experiencia en Planeaci&oacute;n Tributaria se fortalece con un experimentado grupo de abogados especializados en litigio fiscal, el cual ha sido parte de diversos procedimientos contenciosos en los que ha logrado obtener resoluciones definitivas favorables a los intereses de nuestros clientes en las siguientes materias:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Amparos interpuestos en contra de disposiciones fiscales consideradas inconstitucionales por la violación de las garantías individuales en materia tributaria de personas físicas y morales</li>
+                  <li class="mdi-content-send collection-item">Medios de defensa ante las autoridades fiscales estatales y procedimientos contenciosos administrativos ante los diversos Tribunales Estatales en Materia Fiscal y Administrativa</li>
+                  <li class="mdi-content-send collection-item">Procedimientos administrativos ante las autoridades fiscales federales y procedimientos contenciosos administrativos ante el Tribunal Federal de Justicia Fiscal y Administrativa</li>
+                  <li class="mdi-content-send collection-item">Nuestra constante participación brindando asesoría y patrocinando litigios relacionados con licitaciones públicas, contratos con la administración pública, invitaciones directas y concursos a nivel local, estatal y federal nos permite brindar servicios de alta calidad relacionados con estos procedimientos.</li>
+                  <li class="mdi-content-send collection-item">En conjunto con el área de litigio hemos representado a personas físicas y morales en procedimientos de expropiación ocupación adquisiciones e intervenciones públicas gubernamentales, presentando confirmaciones de criterio y/o interponiendo medios de defensa representando los intereses</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal6" class="modal">
+              <div class="modal-content">
+                <h4>Laboral y Seguridad Social</h4>
+                <p>Considerando la naturaleza de la regulación laboral en México, hemos tomado todas las medidas necesarias para crear un equipo sólido que encabece el área de Laboral y Seguridad Social, capaz de asesorar a nuestros clientes en la implementación de esquemas y medidas preventivas en dicha materia, permitiéndonos anticipar y evitar contingencias laborales.</p>
+                <p>Prestamos servicios y asesoría práctica en materia laboral, particularmente en asuntos como los siguientes:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Preparación, negociación e implementación de contratos individuales de trabajo, incluyendo dispos iciones especiales sobre confidencialidad y competencia</li>
+                  <li class="mdi-content-send collection-item">Preparación negociación e implementación de beneficios a favor de ejecutivos de alto nivel, incluyendo participación en el capital, pensiones y planes de retiro</li>
+                  <li class="mdi-content-sendcollection-item">Temas de derecho migratorio, incluyendo obtención de visas de negocios y de trabajo</li>
+                  <li class="mdi-content-send collection-item">Preparación negociación de Contratos Colectivos de Trabajo con Sindicatos, incluyendo la negociación de prestaciones y asistencia en su registro ante la Junta de Conciliación y Arbitraje</li>
+                  <li class="mdi-content-sendcollection-item">Asesoría y preparación de reglamentos interiores de trabajo y comisiones especiales regulando temas de seguridad e higiene aplicable a los trabajadores</li>
+                  <li class="mdi-content-send collection-item">Preparación de los documentos necesarios y asistencia durante la contratación y terminación de empleados, trabajadores y ejecutivos, capaces de atender terminaciones masivas y realizar los cálculos de paquetes de liquidación y la ratificación de acuerdos ante la Junta Laboral</li>
+                  <li class="mdi-content-send collection-item">Conociendo las necesidades corporativas de nuestros clientes, también prestamos asesoría y asistencia en la preparación de contratos intercompañia de servicios y apoyo administrativo continuo, incluyendo en temas relacionados con recursos humanos</li>
+                </ul>
+                <p>En apoyo a lo anterior, nuestro equipo de litigantes activos y dinámicos se encuentra constantemente atendiendo procedimientos laborales ya sea en las Juntas Laborales Federales o Locales en temas relacionados a derecho laboral colectivo e individual.</p>
+                <p>Nuestros laboralistas son capaces de atender clientes en materia de cumplimiento de obligaciones de seguridad social, a través de ka prestación de los siguientes servicios:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Auditorias en material de seguridad social e identificación de medias preventivas</li>
+                  <li class="mdi-content-send collection-item">Sustituciones patronales</li>
+                  <li class="mdi-content-send collection-item">Clasificación de riesgos laborales y en general evaluación de negocios</li>
+                  <li class="mdi-content-send collection-item">Declaración anual de la prima de riesgos</li>
+                  <li class="mdi-content-send collection-item">Análisis de los beneficios otorgados</li>
+                </ul>
+                <p>El litigio de temas de seguridad social normalmente requiere la participación conjunta con nuestra práctica fiscal, permitiéndonos lograr una representación efectiva y eficiente en temas como:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item">Infracciones colectivas, penalidades o procedimientos seguidos por las autoridades de seguridad social</li>
+                  <li class="mdi-content-send collection-item">Litigio y devoluciones de contribuciones injustificadas</li>
+                  <li class="mdi-content-send collection-item">Litigio de resoluciones emitidas por inspecciones físicas u otras auditorias practicadas por la Autoridad de Seguridad Social</li>
+                  <li class="mdi-content-send collection-item">Acciones tomadas por el Instituto Mexicano de Seguridad Social y el INFONAVIT</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal7" class="modal">
+              <div class="modal-content">
+                <h4>Bancario y Financiero</h4>
+                <p>Nuestro equipo de abogados ha representado inversionistas privados e instituciones financieras en diversos aspectos legales relacionados con operaciones de crédito, préstamos y créditos garantizados con activos, créditos comerciales y derechos de acreedores, que comprenden lo siguiente:</p>
+                <ul class="collection with-header">
+                  <li class="mdi-content-send collection-item"> Créditos puente, financiamiento corporativo y de capital y créditos comerciales</li>
+                  <li class="mdi-content-send collection-item"> Reestructuración de créditos, acuerdos de pago y reestructura (work-outs), tomas de control de proyectos (takeovers), administración de activos y esquemas de viabilidad de proyectos</li>
+                  <li class="mdi-content-send collection-item"> Inversiones de capital privado y estructuras de inversión</li>
+                  <li class="mdi-content-send collection-item"> Hipotecas y fideicomisos de garantía</li>
+                  <li class="mdi-content-send collection-item"> Prenda sin desposesión sobre activos, cuentas por cobrar, acciones y otros bienes muebles</li>
+                  <li class="mdi-content-send collection-item"> Garantías corporativas y personales</li>
+                  <li class="mdi-content-send collection-item"> Búsquedas de antecedentes y activos</li>
+                  <li class="mdi-content-send collection-item"> Emisión de obligaciones, papel comercial y otros valores</li>
+                </ul>
+                <p>Los abogados de nuestra práctica bancaria y financiera han participado en la estructuración de operaciones de apalancamiento, incluyendo financiamientos con garantías hipotecarias, limitaciones de dominio y otros medios de garantía, representando a compañías nacionales e internacionales, así como a instituciones financieras.</p>
+                <p>Tenemos la capacidad de participar y asistir a instituciones financieras en la implementación de los pasos y acciones necesarios para la constitución, autorización y registro de instituciones bancarias, de seguros y reaseguros, oficinas de representación de bancos extranjeros y otras instituciones que participen en el Sistema Financiero Mexicano.</p>
+                <p>En conjunto con nuestra práctica de litigio, tenemos la capacidad de llevar a la defensa de los intereses de nuestros clientes ante la Comisión Nacional Bancaria y de Valores (CNBV), así como ante la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+              </div>
+            </div>
 
-                      <p>Asimismo, la experiencia de los abogados que integran el &aacute;rea fiscal les permite emitir opiniones acerca de los efectos respecto de la aplicaci&oacute;n de tratados para evitar la doble tributaci&oacute;n de los que M&eacute;xico no es parte.</p>
+            <!--Import jQuery before materialize.js-->
 
-                      <p>Nuestra experiencia en Planeaci&oacute;n Tributaria se fortalece con un experimentado grupo de abogados especializados en litigio fiscal, el cual ha sido parte de diversos procedimientos contenciosos en los que ha logrado obtener resoluciones definitivas favorables a los intereses de nuestros clientes en las siguientes materias:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Amparos interpuestos en contra de disposiciones fiscales consideradas inconstitucionales por la violación de las garantías individuales en materia tributaria de personas físicas y morales</li>
-                        <li class="mdi-content-send collection-item">Medios de defensa ante las autoridades fiscales estatales y procedimientos contenciosos administrativos ante los diversos Tribunales Estatales en Materia Fiscal y Administrativa</li>
-                        <li class="mdi-content-send collection-item">Procedimientos administrativos ante las autoridades fiscales federales y procedimientos contenciosos administrativos ante el Tribunal Federal de Justicia Fiscal y Administrativa</li>
-                        <li class="mdi-content-send collection-item">Nuestra constante participación brindando asesoría y patrocinando litigios relacionados con licitaciones públicas, contratos con la administración pública, invitaciones directas y concursos a nivel local, estatal y federal nos permite brindar servicios de alta calidad relacionados con estos procedimientos.</li>
-                        <li class="mdi-content-send collection-item">En conjunto con el área de litigio hemos representado a personas físicas y morales en procedimientos de expropiación ocupación adquisiciones e intervenciones públicas gubernamentales, presentando confirmaciones de criterio y/o interponiendo medios de defensa representando los intereses</li>
-                      </ul>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal6" class="modal">
-                    <div class="modal-content">
-                      <h4>Laboral y Seguridad Social</h4>
-                      <p>Considerando la naturaleza de la regulación laboral en México, hemos tomado todas las medidas necesarias para crear un equipo sólido que encabece el área de Laboral y Seguridad Social, capaz de asesorar a nuestros clientes en la implementación de esquemas y medidas preventivas en dicha materia, permitiéndonos anticipar y evitar contingencias laborales.</p>
-                      <p>Prestamos servicios y asesoría práctica en materia laboral, particularmente en asuntos como los siguientes:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Preparación, negociación e implementación de contratos individuales de trabajo, incluyendo dispos iciones especiales sobre confidencialidad y competencia</li>
-                        <li class="mdi-content-send collection-item">Preparación negociación e implementación de beneficios a favor de ejecutivos de alto nivel, incluyendo participación en el capital, pensiones y planes de retiro</li>
-                        <li class="mdi-content-sendcollection-item">Temas de derecho migratorio, incluyendo obtención de visas de negocios y de trabajo</li>
-                        <li class="mdi-content-send collection-item">Preparación negociación de Contratos Colectivos de Trabajo con Sindicatos, incluyendo la negociación de prestaciones y asistencia en su registro ante la Junta de Conciliación y Arbitraje</li>
-                        <li class="mdi-content-sendcollection-item">Asesoría y preparación de reglamentos interiores de trabajo y comisiones especiales regulando temas de seguridad e higiene aplicable a los trabajadores</li>
-                        <li class="mdi-content-send collection-item">Preparación de los documentos necesarios y asistencia durante la contratación y terminación de empleados, trabajadores y ejecutivos, capaces de atender terminaciones masivas y realizar los cálculos de paquetes de liquidación y la ratificación de acuerdos ante la Junta Laboral</li>
-                        <li class="mdi-content-send collection-item">Conociendo las necesidades corporativas de nuestros clientes, también prestamos asesoría y asistencia en la preparación de contratos intercompañia de servicios y apoyo administrativo continuo, incluyendo en temas relacionados con recursos humanos</li>
-                      </ul>
-                      <p>En apoyo a lo anterior, nuestro equipo de litigantes activos y dinámicos se encuentra constantemente atendiendo procedimientos laborales ya sea en las Juntas Laborales Federales o Locales en temas relacionados a derecho laboral colectivo e individual.</p>
-                      <p>Nuestros laboralistas son capaces de atender clientes en materia de cumplimiento de obligaciones de seguridad social, a través de ka prestación de los siguientes servicios:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Auditorias en material de seguridad social e identificación de medias preventivas</li>
-                        <li class="mdi-content-send collection-item">Sustituciones patronales</li>
-                        <li class="mdi-content-send collection-item">Clasificación de riesgos laborales y en general evaluación de negocios</li>
-                        <li class="mdi-content-send collection-item">Declaración anual de la prima de riesgos</li>
-                        <li class="mdi-content-send collection-item">Análisis de los beneficios otorgados</li>
-                      </ul>
-                      <p>El litigio de temas de seguridad social normalmente requiere la participación conjunta con nuestra práctica fiscal, permitiéndonos lograr una representación efectiva y eficiente en temas como:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item">Infracciones colectivas, penalidades o procedimientos seguidos por las autoridades de seguridad social</li>
-                        <li class="mdi-content-send collection-item">Litigio y devoluciones de contribuciones injustificadas</li>
-                        <li class="mdi-content-send collection-item">Litigio de resoluciones emitidas por inspecciones físicas u otras auditorias practicadas por la Autoridad de Seguridad Social</li>
-                        <li class="mdi-content-send collection-item">Acciones tomadas por el Instituto Mexicano de Seguridad Social y el INFONAVIT</li>
-                      </ul>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-                    </div>
-                  </div>
-                  <!-- Modal Structure -->
-                  <div id="modal7" class="modal">
-                    <div class="modal-content">
-                      <h4>Bancario y Financiero</h4>
-                      <p>Nuestro equipo de abogados ha representado inversionistas privados e instituciones financieras en diversos aspectos legales relacionados con operaciones de crédito, préstamos y créditos garantizados con activos, créditos comerciales y derechos de acreedores, que comprenden lo siguiente:</p>
-                      <ul class="collection with-header">
-                        <li class="mdi-content-send collection-item"> Créditos puente, financiamiento corporativo y de capital y créditos comerciales</li>
-                        <li class="mdi-content-send collection-item"> Reestructuración de créditos, acuerdos de pago y reestructura (work-outs), tomas de control de proyectos (takeovers), administración de activos y esquemas de viabilidad de proyectos</li>
-                        <li class="mdi-content-send collection-item"> Inversiones de capital privado y estructuras de inversión</li>
-                        <li class="mdi-content-send collection-item"> Hipotecas y fideicomisos de garantía</li>
-                        <li class="mdi-content-send collection-item"> Prenda sin desposesión sobre activos, cuentas por cobrar, acciones y otros bienes muebles</li>
-                        <li class="mdi-content-send collection-item"> Garantías corporativas y personales</li>
-                        <li class="mdi-content-send collection-item"> Búsquedas de antecedentes y activos</li>
-                        <li class="mdi-content-send collection-item"> Emisión de obligaciones, papel comercial y otros valores</li>
-                      </ul>
-                      <p>Los abogados de nuestra práctica bancaria y financiera han participado en la estructuración de operaciones de apalancamiento, incluyendo financiamientos con garantías hipotecarias, limitaciones de dominio y otros medios de garantía, representando a compañías nacionales e internacionales, así como a instituciones financieras.</p>
-                      <p>Tenemos la capacidad de participar y asistir a instituciones financieras en la implementación de los pasos y acciones necesarios para la constitución, autorización y registro de instituciones bancarias, de seguros y reaseguros, oficinas de representación de bancos extranjeros y otras instituciones que participen en el Sistema Financiero Mexicano.</p>
-                      <p>En conjunto con nuestra práctica de litigio, tenemos la capacidad de llevar a la defensa de los intereses de nuestros clientes ante la Comisión Nacional Bancaria y de Valores (CNBV), así como ante la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)</p>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
-                    </div>
-                  </div>
-                  <!--Import jQuery before materialize.js-->
-                  <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
-                  <script src="assets/js/modernizr.custom.js"></script>
-                  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-                  <script type="text/javascript" src="assets/js/quotes.js"></script>
-                  <script type="text/javascript" src="assets/js/jsCarousel.js"></script>
-                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvQx1vqaYHXKgS5ziWBeMC2p5rT_NYYPY"></script>
-                  <script type="text/javascript" src="assets/js/custom.js"></script>
-                  <script type="text/javascript" src="assets/js/wow.js"></script>
-                  <script src="assets/js/jquery.singlePageNav.min.js"></script>
-                </body>
-                </html>
+            <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+            <script src="assets/js/modernizr.custom.js"></script>
+            <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+            <script type="text/javascript" src="assets/js/quotes.js"></script>
+            <script type="text/javascript" src="assets/js/jsCarousel.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvQx1vqaYHXKgS5ziWBeMC2p5rT_NYYPY"></script>
+            <script type="text/javascript" src="assets/js/custom.js"></script>
+            <script type="text/javascript" src="assets/js/wow.js"></script>
+            <script src="assets/js/jquery.singlePageNav.min.js"></script>
+          </body>
+          </html>

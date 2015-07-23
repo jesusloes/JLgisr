@@ -13,6 +13,8 @@ footer.page-footer {
 	height: 310px;
 	background-image: url("../images/books.jpg");
 	background-repeat: repeat;
+	background-size: cover;
+	background-position-y: -230px;
 }
 
 nav .brand-logo {
@@ -25,8 +27,8 @@ nav .brand-logo {
 	background-image: url('../images/arrow-big.png'); width: 60px; height: 60px ; cursor: pointer; display: block; margin: 0 auto ; position: absolute ; top: 78% ; left: 48% ; -webkit-tap-highlight-color: transparent;
 }
 .whitebell{
-	  border-bottom: 1px solid #000000;
-  width: 100%;
+	border-bottom: 1px solid #000000;
+	width: 100%;
 }
 .distance{
 	padding: 25px 0px 25px 0px;
@@ -120,9 +122,9 @@ nav .brand-logo {
 }
 
 .cbp-qtrotator blockquote footer {
-  font-size: 1.2em;
-  text-shadow: -1px 1px #000000;
-  background-color: rgba(0, 0, 0, 0.6);
+	font-size: 1.2em;
+	text-shadow: -1px 1px #000000;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cbp-qtrotator blockquote footer:before {
@@ -130,11 +132,11 @@ nav .brand-logo {
 }
 
 .cbp-qtrotator .cbp-qtcontent img {
-  position: relative;
-  left: 15%;
-  float: initial;
-  width: 70%;
-  height: 50%;
+	position: relative;
+	left: 15%;
+	float: initial;
+	width: 70%;
+	height: 50%;
 }
 
 /* Example for media query */
@@ -147,6 +149,38 @@ nav .brand-logo {
 	.cbp-qtrotator img {
 		width: 80px;
 	}
+	.parallax img {
+		display: block;
+		position: absolute;
+		bottom: 0;
+		width: 555px;
+		height: 700px;
+		top: 1px;
+	}
+	.title {
+		font-family: sans-serif;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		padding-top: 0px
+	}
+	.parallax-container2 {
+		position: relative;
+		overflow: hidden;
+		height: 310px;
+		background-image: url("../images/books.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position-y: 0px;
+	}
+	.textdivider {
+		color: black;
+		padding: 20%!important;
+		font-weight: 400;
+	}
+	html {
+  font-size: 12px;
+}
 
 }
 blockquote {
@@ -202,12 +236,16 @@ nav a {
 	display: block;
 }
 .textdivider{
-	color: white;
-	padding: 10%;
+	color: red;
+	padding: 125px;
 	font-weight: 400;
 }
 nav ul li:hover, nav ul li.active {
-	background-color: #bcaaa4;
+  background-color: #d50000;
+}
+
+nav ul li a:hover{
+	  color: #FFFFFF !important;
 }
 .promo i {
 	color: #757575;
@@ -221,92 +259,91 @@ nav ul li:hover, nav ul li.active {
 .space{  padding: 10px;}
 
 .parallax-container4 {
-  position: relative;
-  overflow: hidden;
-  height: 80%;
-  background-image: url("../images/backpolu.jpg");
-  background-repeat: repeat;
-  background-size: cover;
+	position: relative;
+	overflow: hidden;
+	height: 80%;
+	background-image: url("../images/backpolu.jpg");
+	background-repeat: repeat;
+	background-size: cover;
 }
 .parallax-container3 {
-  position: relative;
-  overflow: hidden;
-  height: 310px;
-  background-image: url("../images/gisr.JPG");
-  background-repeat: round;
+	position: relative;
+	overflow: hidden;
+	height: 310px;
+	background-image: url("../images/gisr.JPG");
+	background-repeat: round;
 }
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
-  footer.page-footer {
-  margin-top: 20px;
-  padding-top: 20px;
-  background-color: #D50000;
+main {
+	flex: 1 0 auto;
+}
+footer.page-footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #D50000;
 }
 .card .card-image img {
-  -webkit-border-radius: 2px 2px 0 0;
-  -moz-border-radius: 2px 2px 0 0;
-  border-radius: 2px 2px 0 0;
-  background-clip: padding-box;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+	background-clip: padding-box;
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
 }
 .white{
 	color: #FFFFFF !important;
 }
 .card.small .card-content {
-  height: 300px;
+	height: 300px;
 }
 .centeridm{
-  margin-left: 35%;
-    margin-top: 30%;
+	margin-left: 35%;
+	margin-top: 30%;
 }
 .text-shadow{
 	text-shadow: 2px 2px #000000;
 }
 i.large {
-  font-size: 6rem;
-  color: #d50000;
+	font-size: 6rem;
+	color: #d50000;
 }
 .parallax img {
-  display: block!important;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  top: 1px;
-  height: 100%;
+	display: block!important;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	top: 1px;
 }
 .container2 {
-  width: 100%;
+	width: 100%;
 }
 .logogisr{width: 80%;
-  height: 80%;}
-  .font11{font-size: 11px;}
+	height: 80%;}
+	.font11{font-size: 11px;}
 
-.parallaxmq{
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 400%;
-  top: -400px;
-  right: -145%;
-  /* height: 100%; */
-}
-.titlemq {
-  font-family: sans-serif;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  /* padding-top: 200px; */
-}
+	.parallaxmq{
+		display: block;
+		position: absolute;
+		bottom: 0;
+		width: 400%;
+		top: -400px;
+		right: -145%;
+		/* height: 100%; */
+	}
+	.titlemq {
+		font-family: sans-serif;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		/* padding-top: 200px; */
+	}
